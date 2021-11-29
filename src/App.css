@@ -1,0 +1,16 @@
+* {
+font-family: 'Questrial', sans-serif;
+font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 75px;
+  margin-right: 75px;
+  align-items: center;
+}
+
+h1 {
+  font-size: 50px;
+}
