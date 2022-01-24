@@ -1,22 +1,26 @@
 .main {
   display: grid;
   justify-content: center;
-  grid-gap: 25px;
-  grid-template-columns: repeat(3, 525px);
+  grid-gap: 35px;
+  grid-template-columns: 522px 785px;
 }
 
 h3 {
-  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-size:65px;
   letter-spacing: 3px;
-  grid-column: 1;
-  grid-row: 1;
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0px;
 }
 
 .rocks {
   height: 256px;
-  width: 785px;
+  width: 1307px;
   object-fit: cover;
-  grid-column: 2 / 3;
+  grid-column: 1 / 2;
   grid-row: 1;
 }
 
